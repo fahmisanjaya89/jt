@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @font-face {
     font-family: "untitled-font-2";
-    src: url("https://cthkanganim.000webhostapp.com/fil/jt2/untitled-font-2.eot");
-    src: url("https://cthkanganim.000webhostapp.com/fil/jt2/untitled-font-2.eot?#iefix") format("embedded-opentype"), url("https://cthkanganim.000webhostapp.com/fil/jt2/untitled-font-2.woff") format("woff"), url("https://cthkanganim.000webhostapp.com/fil/jt2/untitled-font-2.ttf") format("truetype"), url("https://cthkanganim.000webhostapp.com/fil/jt2/untitled-font-2.svg#untitled-font-7") format("svg");
+    src: url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/untitled-font-2.eot");
+    src: url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/untitled-font-2.eot?#iefix") format("embedded-opentype"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/untitled-font-2.woff") format("woff"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/untitled-font-2.ttf") format("truetype"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/untitled-font-2.svg#untitled-font-7") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Museo";
-    src: local("Museo"), url("https://cthkanganim.000webhostapp.com/fil/jt2/museo300-regular-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Museo300-Regular.otf") format("opentype");
+    src: local("Museo"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/museo300-regular-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Museo300-Regular.otf") format("opentype");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: "Museo";
-    src: local("Museo"), url("https://cthkanganim.000webhostapp.com/fil/jt2/museo500-regular-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Museo500-Regular.otf") format("opentype");
+    src: local("Museo"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/museo500-regular-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Museo500-Regular.otf") format("opentype");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -25,7 +25,7 @@
 
 @font-face {
     font-family: "Museo";
-    src: local("Museo"), url("https://cthkanganim.000webhostapp.com/fil/jt2/museo700-regular-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Museo700-Regular.otf") format("opentype");
+    src: local("Museo"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/museo700-regular-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Museo700-Regular.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -33,7 +33,7 @@
 
 @font-face {
     font-family: "Roboto";
-    src: local("Roboto"), url("https://cthkanganim.000webhostapp.com/fil/jt2/roboto-bold-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Roboto-Bold.otf") format("opentype");
+    src: local("Roboto"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/roboto-bold-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Roboto-Bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -41,7 +41,7 @@
 
 @font-face {
     font-family: "Roboto";
-    src: local("Roboto"), url("https://cthkanganim.000webhostapp.com/fil/jt2/roboto-medium-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Roboto-Medium.otf") format("opentype");
+    src: local("Roboto"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/roboto-medium-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Roboto-Medium.otf") format("opentype");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -49,7 +49,7 @@
 
 @font-face {
     font-family: "Roboto";
-    src: local("Roboto"), url("https://cthkanganim.000webhostapp.com/fil/jt2/roboto-regular-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Roboto-Regular.otf") format("opentype");
+    src: local("Roboto"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/roboto-regular-webfont.woff2") format("woff2"), url("https://cthkanganim.000webhostapp.com/fil/jt2/Roboto-Regular.otf") format("opentype");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -57,7 +57,7 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: local("Open Sans"), url("https://cthkanganim.000webhostapp.com/fil/jt2/opensans-bold-webfont.woff2") format("woff2");
+    src: local("Open Sans"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/opensans-bold-webfont.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -65,7 +65,7 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: local("Open Sans"), url("https://cthkanganim.000webhostapp.com/fil/jt2/opensans-bolditalic-webfont.woff2") format("woff2");
+    src: local("Open Sans"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/opensans-bolditalic-webfont.woff2") format("woff2");
     font-weight: 700;
     font-style: italic;
     font-display: swap;
@@ -73,7 +73,7 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: local("Open Sans"), url("https://cthkanganim.000webhostapp.com/fil/jt2/opensans-italic-webfont.woff2") format("woff2");
+    src: local("Open Sans"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/opensans-italic-webfont.woff2") format("woff2");
     font-weight: 400;
     font-style: italic;
     font-display: swap;
@@ -81,7 +81,7 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: local("Open Sans"), url("https://cthkanganim.000webhostapp.com/fil/jt2/opensans-regular-webfont.woff2") format("woff2");
+    src: local("Open Sans"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/opensans-regular-webfont.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -89,7 +89,7 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: local("Open Sans"), url("https://cthkanganim.000webhostapp.com/fil/jt2/opensans-semibold-webfont.woff2") format("woff2");
+    src: local("Open Sans"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/opensans-semibold-webfont.woff2") format("woff2");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -97,7 +97,7 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: local("Open Sans"), url("https://cthkanganim.000webhostapp.com/fil/jt2/opensans-semibolditalic-webfont.woff2") format("woff2");
+    src: local("Open Sans"), url("https://cdn.statically.io/gh/fahmisanjaya89/jt/7c010afd/opensans-semibolditalic-webfont.woff2") format("woff2");
     font-weight: 600;
     font-style: italic;
     font-display: swap;
@@ -5578,8 +5578,6 @@ to{opacity:0;-webkit-transform:rotate(-45deg) translateY(10px);transform:rotate(
     right: 0;
     max-width: 64px;
 }
-
-
 
 
 
