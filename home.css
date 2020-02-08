@@ -5580,4 +5580,538 @@ to{opacity:0;-webkit-transform:rotate(-45deg) translateY(10px);transform:rotate(
 }
 
 
+/*
+	Page Kontributor
+*/
 
+/*Halaman Kontributor - IMPORTANT*/
+.header-kontributor
+{
+	position: relative;
+	padding: 20px;
+	padding-left: 140px;
+	min-height: 250px;
+	background-image: url(../Banner/banner-kontributor.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 250px;
+	font-family: "Open Sans";
+	box-sizing: border-box;
+}
+.header-kontributor .author-image
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left: 20px;
+    margin: auto;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 12px 33px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.header-kontributor .author-image img
+{
+	width: 100%;
+    height: 100%;
+    vertical-align: top;
+    position: relative;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+}
+.header-kontributor .author-name
+{
+	margin-bottom: 10px;
+	padding-top: 160px;
+	font-family: "Museo";
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.header-kontributor .author-rating
+{
+	margin-bottom: 30px;
+	font-family: "Museo";
+}
+.header-kontributor .author-rating .rating-level
+{
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+	font-weight: 600;
+}
+.header-kontributor .author-rating .rating-level:after
+{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 12px;
+	top: -4px;
+	content: "";
+	background-image: url(../images/spritesheet.png);
+	background-position: 0 -320px;
+}
+.header-kontributor .author-rating .rating-text, .header-kontributor .author-rating .article-number
+{
+	display: inline-block;
+	position: relative;
+	padding-left: 24px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+}
+.header-kontributor .author-rating .article-number
+{
+	float: right;
+}
+.header-kontributor .news-title
+{
+	margin-bottom: 10px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+}
+.header-kontributor .author-quote
+{
+	max-width: 480px;
+	font-size: 15px;
+}
+.header-kontributor .author-socmed
+{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.header-kontributor .author-socmed .author-socmed-list
+{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.header-kontributor .author-socmed .author-socmed-list .socmed-list-item
+{
+	background-color: rgba(0,0,0,0.5)!important;
+	border-radius: 0;
+	margin-left: 5px;
+}
+
+/*Halaman Kontributor - IMPORTANT*/
+
+@media(max-width: 768px){
+
+
+	/*Kontributor - Styling*/
+	.header-kontributor
+	{
+		padding: 20px;
+		background-size: auto;
+	}
+	.header-kontributor .author-name
+	{
+		padding-top: 130px;
+		text-align: center;
+	}
+	.header-kontributor .author-image
+	{
+	    top: 20px;
+	    left: 0;
+ 	    right: 0;
+	}
+	.header-kontributor .news-title, .header-kontributor .author-quote
+	{
+		display: block;
+		padding: 0;
+		text-align: center;
+	}
+	.header-kontributor .author-rating
+	{
+		text-align: center;
+	}
+	.header-kontributor .author-rating .article-number
+	{
+		display: block;
+		padding: 0;
+		float: none;
+	}
+	
+}
+
+/*Page User*/
+
+.header-kontributor .author-rating .article-number
+{
+	padding-right: 100px;
+}
+.writer-panel .news-content
+{
+	box-shadow: 0 0 0 rgba(255,255,255,0);
+}
+.writer-panel .news-content .is-empty
+{
+	padding-top: 300px;
+	background-image: url(../images/nulis_bg.jpg) ;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.writer-panel .news-content .is-empty .title
+{
+	padding: 0 0 20px 0;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+}
+.writer-panel .author-function
+{
+	display: inline-block;
+	padding-left: 20px;
+	font-family: "Roboto";
+	line-height: 20px;
+	font-size: 14px;
+}
+.writer-panel .news-content .is-empty .button
+{
+	margin: auto;
+}
+.write-article
+{
+	position: absolute;
+	right: 20px;
+	top: 200px;
+	width: 80px;
+	padding-top: 72px;
+	font-family: "Roboto";
+	font-size: 14px;
+	font-weight: 600;
+	color: #636363
+}
+.write-article:before, .write-article:after
+{
+	position: absolute;
+	top: 0;
+	left: 8px;
+	right: 0;
+	width: 64px;
+	height: 64px;
+	content: "";
+}
+.write-article:before
+{
+	border-radius: 50%;
+	background-color: #fa7b0a;
+}
+.write-article:after
+{
+	background-image: url(../images/nulis.png) ;
+	background-repeat: no-repeat;
+	background-position: center;
+}.writer-panel .news-date .edit-article, .writer-panel .news-date .erase-article
+{
+	display: inline-block;
+	padding-left: 20px;
+	margin-right: 5px;
+	font-family: "Open Sans";
+	font-size: 14px;
+}
+.artikel-nav
+{
+	position: relative;
+	width: 100%;
+	height: 25px;
+	margin: 20px 0;
+	box-sizing: border-box;
+}
+.artikel-search
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 25px;
+	padding-left: 40px;
+	width: 300px;
+	display: inline-block;
+}
+.artikel-search-input
+{
+	border: 0;
+	font-family: "Museo";
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 600;
+}
+.artikel-search:after {
+	position: absolute;
+	left: 10px;
+	top: 0;
+    width: 24px;
+    height: 24px;
+    content: "";
+    background-image: url(../images/cari.png);
+    background-repeat: no-repeat;
+}
+.artikel-filter
+{
+	position: absolute;
+	display: inline-block;
+	right: 0;
+	top: 0;
+	height: 25px;
+	padding-right: 32px;
+	font-family: "Museo";
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 600;
+}
+.artikel-filter:after {
+	position: absolute;
+	right: 0;
+	top: 0;
+    width: 24px;
+    height: 24px;
+    content: "";
+    background-image: url(../images/filter.png);
+    background-repeat: no-repeat;
+}
+/*Halaman Pengaturan*/
+
+#profile-image
+{
+    display: none;
+}
+#profile-image ~ label
+{
+    display: block;
+    width: 100%;
+    height: 220px;
+    font-family: "Roboto";
+    font-size: 13px;
+    line-height: 20px;
+}
+#profile-image ~ label img
+{
+    display: block;
+    width: 110px;
+    height: 110px;
+    margin: 10px auto 20px;
+    border-radius: 50%;
+}
+#profil-submit
+{
+    margin: 0 20px 20px 0;
+    float: right;
+}
+/*Halaman Pengaturan*/
+
+/*Halaman Transaksi User*/
+.table.table-transaksi
+{
+    display: block;
+    margin-bottom: 0;
+    border: 0;
+    font-family: "Museo"
+}
+.table.table-transaksi .table-col
+{
+    display: table-cell;
+    vertical-align: middle;
+    float: none!important;
+    box-sizing: border-box;
+}
+.table.table-transaksi .table-body:nth-last-child(2) .table-col
+{
+	border: 0;
+}
+.table.table-transaksi .table-col > *
+{
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.table.table-transaksi .table-col .title
+{
+    display: block;
+    padding: 4px 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: #666;
+}
+.table.table-transaksi .table-col .subtitle
+{
+    display: block;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+.table.table-transaksi .table-col .subtitle:not(.color)
+{
+	color: #666;
+}
+.table.table-transaksi .table-body
+{
+    padding: 6px 0;
+    background-color: #ffffff;
+}
+.table.table-transaksi .table-body:nth-child(1)
+{
+    padding-top: 0;
+}
+.table.table-transaksi .table-body:nth-last-child(2)
+{
+    padding-bottom: 0
+}
+.table.table-transaksi .table-body .table-col
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.table.table-transaksi .table-col .subtitle .image-thumb
+{
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.table.table-transaksi .table-col .subtitle .name
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #666;
+    vertical-align: middle;
+}
+.has-icon.icon-fb:after
+{
+	background-image: url(../images/fb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.has-icon.icon-web:after
+{
+	background-image: url(../images/web.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.has-icon.icon-ig:after
+{
+	background-image: url(../images/ig.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.has-icon.icon-twit:after
+{
+	background-image: url(../images/twit.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*Halaman Transaksi User*/
+@media(max-width: 1023px){
+
+	#profile_bookmark
+	{
+		padding: 0 15px;
+	}
+	.writer-panel .news-date
+	{
+		top: initial;
+		left: initial;
+		right: 100px;
+		bottom: 0px;
+	}
+	.writer-panel .news-date .edit-article, .writer-panel .news-date .erase-article
+	{
+		font-size: 12px;
+	}
+	.table.table-transaksi .table-body
+	{
+		padding: 0;
+	}
+	.table.table-transaksi .table-col
+	{
+		padding: 15px 20px;
+	}
+	.write-article
+	{
+	    position: fixed;
+	    right: 20px;
+	    top: initial;
+	    bottom: 20px;
+	    width: 64px;
+	    padding-top: 36px;
+	    font-family: "Roboto";
+	    font-size: 14px;
+	    font-weight: 600;
+	    color: #636363;
+	    z-index: 999;
+	    line-height: 28px;
+	    color: #ffffff;
+	    vertical-align: bottom;
+	    display: inline-block;
+	    text-align: center;
+	}
+	.write-article span.hide
+	{
+		display: none;
+	}
+	.write-article:before, .write-article:after
+	{
+		left: 0;
+		z-index: -1
+	}
+	.write-article:after
+	{
+		background-position: center top 10px;
+	}
+	.main-content .profile-panels .news-content
+	{
+		box-shadow: 0 0 rgba(255,255,255,0)
+	}
+	.kontributor-content ~ .all-news .main-content
+	{
+		box-shadow: 0 0 rgba(255,255,255,0)
+	}
+
+	.artikel-filter
+	{
+		padding-right: 48px;
+	}
+	.artikel-filter:after
+	{
+		right: 12px;
+	}
+
+	.writer-panel .news-list-std .news-item .news-detail .title
+	{
+		margin-top: 0;
+	}
+	.writer-panel .news-list-std .news-date
+	{
+		top: initial;
+		bottom: 0px;
+	}
+	.writer-panel .author-function
+	{
+		font-size: 12px;
+	}
+}
+@media(max-width: 768px){
+	.header-kontributor .author-rating .article-number
+	{
+		padding: 0;
+	}
+}
+@media(max-width: 480px){
+	.material-input input[type="checkbox"] ~ .input-title
+	{
+		display: block;
+		padding-left: 0;
+	}
+	#profil-ubah .box-6, #profil-ubah .box-12
+	{
+		display: block;
+		width: 100%;
+		padding: 0!important;
+		float: none;
+	}
+}
+
+/*Page User*/
